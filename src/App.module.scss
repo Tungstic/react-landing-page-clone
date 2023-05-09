@@ -24,3 +24,13 @@
 .headingFont {
   font-family: 'Ovo', serif;
 }
+
+.heroSection {
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 700px;
+    height: 600px;
+  }
+}

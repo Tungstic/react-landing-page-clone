@@ -19,15 +19,20 @@ export default function App() {
         </nav>
       </header>
       <main>
-        <div>
+        <div className={styles.heroSection}>
           <h1 className={styles.headingFont}>
             Cut back on your drinking with no pressure to quit.
+            <p className={styles.mainText}>
+              146 million U.S. adults drink alcohol, and 47% want to cut back.
+              If you're one of them, we have the tools to help, and we'll never
+              judge you.
+            </p>
           </h1>
-          <p className={styles.mainText}>
-            146 million U.S. adults drink alcohol, and 47% want to cut back. If
-            you're one of them, we have the tools to help, and we'll never judge
-            you.
-          </p>
+
+          <img
+            src="https://www.sunnyside.co/img/sunnyside/home_hero.webp"
+            alt="smiling girl with a phone"
+          />
         </div>
       </main>
       <footer>footer with underfooter for copyright</footer>
