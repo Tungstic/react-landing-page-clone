@@ -1,36 +1,68 @@
-.navigationBar {
-  border: 1px solid red;
+// width for sections: all but forth
+.container {
+  padding-left: 5rem;
+  margin: auto;
+}
 
+// background colors for all sections
+.sectionColorOne {
+  background-color: #fbf6e9;
+}
+
+// blue button
+.blueButton {
+  background-color: #5dc0fe;
+  color: white;
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding: 12px 32px;
+}
+
+// header
+.navigationBar {
   ul {
     list-style: none;
     display: flex;
-    gap: 24px;
+    align-items: center;
+    gap: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 
 .logoAndNavBar {
+  margin-top: 0;
   display: flex;
+  width: 100%;
   justify-content: space-between;
   padding: 12px 24px;
+  position: fixed;
 }
 
-.mainText {
-  font-family: 'Josefin Sans', sans-serif;
-  font-family: 'Nunito Sans', sans-serif;
-  font-weight: 560;
-  font-size: 1.25rem;
-}
-
-.headingFont {
-  font-family: 'Ovo', serif;
-}
-
+// hero section
 .heroSection {
   display: flex;
-  align-items: center;
+  gap: 12px;
+  margin-top: 5rem;
+
+  h1 {
+    font-size: 4rem;
+    text-align: left;
+
+    & ~ div {
+      padding-left: 24px;
+    }
+  }
 
   img {
-    width: 700px;
-    height: 600px;
+    width: 600px;
+    height: 500px;
   }
+}
+
+// second section
+.secondSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
