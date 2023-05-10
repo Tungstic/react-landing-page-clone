@@ -118,6 +118,79 @@ export default function App() {
             height={500}
           />
         </div>
+
+        <div
+          className={`${styles.fourthSection} ${styles.containerSectionFour}`}
+        >
+          <div>
+            <h2>How it Works</h2>
+            <p>
+              We believe there's power in finding balance. Sunnyside helps you
+              ease into mindful drinking at your own pace.
+            </p>
+          </div>
+          <div className={styles.fourthSectionUnder}>
+            <img
+              src="https://www.sunnyside.co/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimg%2Fsunnyside%2Fhow_it_works_group_1.5637cdd0c60da0d7a119425a2e3e7e1f.png&w=1080&q=75"
+              alt="how it works"
+              width={500}
+              height={500}
+            />
+            <div>
+              <h3>
+                01.
+                <br />
+                Take the quiz.
+              </h3>
+              <p>
+                Tell us a little bit about yourself and your goals so we can
+                personalize your experience. This is a judgement-free zone.
+              </p>
+              <button className={styles.blueButton}>Take the 3 Min Quiz</button>
+            </div>
+          </div>
+          <div className={styles.fourthSectionUnder}>
+            <div>
+              <h3>
+                02.
+                <br />
+                Follow your personalized plan.
+              </h3>
+              <p>
+                Based on your starting point, we'll make recommendations and
+                text you reminders to help you meet your goals.
+              </p>
+              <button className={styles.blueButton}>Take the 3 Min Quiz</button>
+            </div>
+            <img
+              src="https://www.sunnyside.co/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimg%2Fsunnyside%2Fhow_it_works_group_2.7bdb52c3827fc1914d44903b747d02b6.png&w=1080&q=75"
+              alt="how it works 2"
+              width={500}
+              height={500}
+            />
+          </div>
+          <div className={styles.fourthSectionUnder}>
+            <img
+              src="https://www.sunnyside.co/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimg%2Fsunnyside%2Fhow_it_works_group_3.69337f6e6fa3a26fbed42de00a31b4b3.png&w=1080&q=75"
+              alt="how it works 3"
+              width={500}
+              height={500}
+            />
+            <div>
+              <h3>
+                03.
+                <br />
+                Stick with it long term.
+              </h3>
+              <p>
+                Think lifestyle change, not a fad diet. We'll work together to
+                develop new daily routines, so you maintain your new habits for
+                life.
+              </p>
+              <button className={styles.blueButton}>Take the 3 Min Quiz</button>
+            </div>
+          </div>
+        </div>
       </main>
       <footer>footer with underfooter for copyright</footer>
     </>
