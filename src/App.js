@@ -81,6 +81,21 @@ export default function App() {
             </div>
           </div>
         </div>
+
+        <div>DESIGNED TO FIT YOUR LIFE</div>
+        <div className={`${styles.thirdSection} ${styles.container}`}>
+          <div>
+            <div>paragraph 1</div>
+            <div>paragraph 2</div>
+            <div>paragraph 3</div>
+          </div>
+          <img
+            src="https://www.sunnyside.co/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimg%2Fsunnyside%2Fdrink_tracking.6b0fb47635263c381f46a9625783012b.png&w=1080&q=75"
+            alt="drink tracking visual"
+            width={300}
+            height={500}
+          />
+        </div>
       </main>
       <footer>footer with underfooter for copyright</footer>
     </>

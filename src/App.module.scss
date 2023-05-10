@@ -87,10 +87,31 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    text-align: center;
+    padding: 1rem 1rem 5rem;
+    width: 80%;
   }
 
   h3 {
     margin-top: 0;
     margin-bottom: 0;
+  }
+}
+
+// third section
+.thirdSection {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+
+  & > div {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+  }
+
+  img {
+    flex: 1;
+    padding: 40px;
   }
 }
