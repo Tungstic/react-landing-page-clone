@@ -108,10 +108,14 @@
     flex: 1.5;
     display: flex;
     flex-direction: column;
+    margin-left: 40px;
   }
 
   img {
     flex: 1;
     padding: 40px;
   }
+}
+.secondSection + div {
+  padding-left: 7.5rem;
 }

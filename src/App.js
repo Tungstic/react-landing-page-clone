@@ -81,13 +81,35 @@ export default function App() {
             </div>
           </div>
         </div>
-
-        <div>DESIGNED TO FIT YOUR LIFE</div>
-        <div className={`${styles.thirdSection} ${styles.container}`}>
+        <div className={styles.sectionColorOne}>DESIGNED TO FIT YOUR LIFE</div>
+        <div
+          className={`${styles.thirdSection} ${styles.container} ${styles.sectionColorOne}`}
+        >
           <div>
-            <div>paragraph 1</div>
-            <div>paragraph 2</div>
-            <div>paragraph 3</div>
+            <div>
+              <h4>Create an intention for your week ahead</h4>
+              <p>
+                We'll recommend targets for you each week, which you can
+                customize to fit your schedule and preferences.
+              </p>
+            </div>
+            <div>
+              <h4>Track each drink, it's as easy as sending a text.</h4>
+              <p>
+                An emoji (or a number) is all it takes. We come to you, making
+                it super easy to stay on plan and reach your goals.
+              </p>
+            </div>
+            <div>
+              <h4>
+                Celebrate your achievements and gain relevant insights over
+                time.
+              </h4>
+              <p>
+                Visualize the progress you're making: money saved, empty
+                calories reduced, dry days added, and drinks cut.
+              </p>
+            </div>
           </div>
           <img
             src="https://www.sunnyside.co/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimg%2Fsunnyside%2Fdrink_tracking.6b0fb47635263c381f46a9625783012b.png&w=1080&q=75"
