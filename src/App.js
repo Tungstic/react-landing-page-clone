@@ -192,7 +192,6 @@ export default function App() {
           </div>
         </div>
       </main>
-      <footer>footer with underfooter for copyright</footer>
     </>
   );
 }
